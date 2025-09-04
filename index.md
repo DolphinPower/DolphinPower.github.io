@@ -7,5 +7,5 @@ Interests:
 - Control theory
 - Environmental applications
 
-Check out [Bluebird Aerospace](https://sites.google.com/view/bluebird-aerospace), a high school team aiming to develop a liquid rocket engine.
+Check out [Bluebird Aerospace](https://sites.google.com/view/bluebird-aerospace), a project that I'm leading. This is high school team aiming to develop a liquid rocket engine.
 
