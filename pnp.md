@@ -35,6 +35,11 @@
     z-index: 2; 
     padding: 2rem;
   }
+
+  .content,
+  .content * {
+    color: white !important;
+  }
 </style>
 
 <div class="video-background-holder">
