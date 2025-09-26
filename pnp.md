@@ -73,7 +73,7 @@ Since our group was on a tight time constraint, I proposed the laser cutter as a
 
 <img src="{{ '/media/images/IMG_0407.jpg' | relative_url }}" alt="A prototype">
 
-I also helped create a short tutorial on how to use the laser cutter in this process. Here is a snapshot from the tutorial, addressing common power settings for different materials.
+I also helped create a short tutorial on how to use the laser cutter in this process. Here is a snapshot from the tutorial, addressing common power settings for different materials. I will expand upon this tutorial in the future to include a more comprehensive guide available.
 
 <img src="{{ '/media/images/IMG_0697.jpg' | relative_url }}" alt="Tutorial">
 
