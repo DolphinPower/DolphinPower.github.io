@@ -39,5 +39,19 @@ Go over to the laser cutter and press the large start button. Remember to stay n
 
 ## Using the Falcon 2 Pro
 
+The Creality Falcon 2 Pro is located in the library innovation lab. This machine has a visible light laser, so it has a built in crimson lid to block out the laser light. You should get a pair of laser glasses as well. This laser cutter also has a cutter and a filter, although the filter currently vents indoors. Therefore, it is not recommended to cut any plastic due to the ventilation situation.
+
+Find the power switch on the right side of the control panel of the laser cutter, and on the side of the ventilation filter. Turn the device on. 
+
+On a laptop, install the software Lightburn (https://lightburnsoftware.com/), which will be used to interface with the laser cutter. Once installed, lightburn should show a grid in the middle, various tools in a toolbar on the top and on the left, and some options on the right. We already have a DXF file in Onshape, so we will not be using the illustration tools inside lightburn. Plug in the laptop with Lightburn to the laser cutter using a USB-C cable.
+
+To connect lightburn to the Falcon 2 Pro, go to the devices page in lightburn, and click find my laser. If the configuration has already been set up the laser should appear. If not, click the import button. Locate the SD card on which the laser cutter's profile is stored in an .lbdev file format. Once this is imported, the Falcon 2 Pro should appear on the list of laser cutters. Select the laser cutter and press ok.
+
+On the bottom right of lightburn next to the devices button, select the correct COM port on which the laptop is interfacing with the laser cutter, where the USB-C cable is connected. Then, restart the Falcon 2 Pro. In the setings dialog, enable mm/min as the working unit, and also turn on the laser fire button. Further, a USB camera inside the laser cutter can be enabled by plugging another USB-C cable to a port on the right side of the top hood. This camera can be selected from the dropdown in the camera control menu. THe camera mujst be calibrated by a small wooden block with a pattern of holes. The software will demonstrate where to place the block.
+
+We can now import the design. This can be found in the File > Import menu, selecting the desired DXF file. After importing, check the scale of the design is correct. Power and speed settings can be adjusted according to the material properties on the right side menu. The laser head can also be moved for a visualization before the laser is actually fired to cut or engrave.
+
+Finally, the laser needs to be focused. There are level focusing blocks which have a note on them indicating the corresponding material thickness. Select the correct focus block and place it under the laser module. Adjust the module height using the z-axis thumb screws until the module rests on the focus block. Tighten back the screws, remove the block, and the laser should be focused. You can now begin cutting the DXF file.
+
 Example Project:
 Pocketing a plate
