@@ -33,6 +33,10 @@ Then, drag the DXF file into the center grid area, where the camera image overla
 
 After placing the DXF in its desired spot and using the measurement tool (found in the left menubar) to verify its dimensions, use the mode selector in the panel on the right to select either score, engrave or cut, depending on the nature of the project. Different groups of geometries can be assigned to different operations. After each operation is selected, set a laser power and head movement speed. The higher the power, the more intense the cut, but could result in elevated fire risks. The faster the speed, the more faster the cut completes, but too much speed could result in the laser not having enough time to burn through material. The XTool provides a grid which visualizes what each material results in for a certain range of presents of powers and speeds. A setting can be selected in the preset diagram by clicking one of the result options; a custom setting can be set using the sliders as well.
 
+Once this is confirmed, click the green process button on the bottom right, and preview the path of the laser. Make sure that all text that are bounded internally to another shape is cut first before the outside is cut. Once that is good, click the green send button on the top right.
+
+Go over to the laser cutter and press the large start button. Remember to stay nearby at all times during the cut!
+
 ## Using the Falcon 2 Pro
 
 Example Project:
