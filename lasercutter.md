@@ -23,17 +23,31 @@ The first step is to turn on the filter module, with the switch located on the f
 
 Identify the power switch on the back right corner of the laser cutter and turn the laser cutter on. The screen and round button on the top of the laser cutter should light up. Observe that the laser cutter auto homes its cutting head. Go back to the computer and start up a new project in XTool Creative Space, the software used to send designs to the XTool P2S. Open up a new project. This should lead to an interface with a white grid in the middle, a toolbar on the left and on top, and some options on the right. 
 
+Import the DXF file by dragging the DXF file directly into the grid space. A black outline of the DXF should appear.
+
+![](media/images/lasercutter1.png)
+
 Connect the computer to the wifi "Webb", as this will allow wireless connectivity to the laser cutter. Locate the connection button on the top right, shaped like two arrows facing opposite directions. Clicking the connect button should show a menu. If the laser cutter is already shown, press the Connect button on the right. If it is not shown, click the connect device text in the bottom, select Wi-Fi mode and then find the laser cutter in the list of wifi devices. Alternatively, use a USB-C data cable, plugging one end into the computer and another end into the corresponding port on the left side of the laser cutter.
+
+![](media/images/lasercutter2.png)
 
 Once the laser cutter is connected, an image of the laser cutter's camera should automatically appear on the screen. The option to refresh the image is located on the icon shaped like a camera with a refresh symbol inside.
 
-Place a piece of stock material in the laser cutter, whether that be acrylic, wood (MDF / eucaboard), cardboard, corrugated plastic or others. Note that cutting polycarbonate is currently not supported by the filters. Remember the type of material and thickness of material. Refresh the camera in the XTool Creative Space. Go to the top right of the screen, and click on the text "Unknown material". Select the desired material and thickness from the menu. 
+![](media/images/lasercutter3.png)
 
-Then, drag the DXF file into the center grid area, where the camera image overlay now is. A black outline of the DXF should appear. Place this over the desired (uncut) region of the stock material according to the imagery from the camera. The DXF file may also be adjusted by groups. By right-clicking, text with the same properties can be grouped together, which helps make selecting modes for each step more efficient.
+Place a piece of stock material in the laser cutter, whether that be acrylic, wood (MDF / eucaboard), cardboard, corrugated plastic or others. Note that cutting polycarbonate is currently not supported by the filters. Remember the type of material and thickness of material. Refresh the camera in the XTool Creative Space. Go to the top right of the screen, and click on the text "Unknown material". Select the desired material and thickness from the menu. In this case, the material is 3.5mm thick cardboard, which is listed as corrugated paper.
 
-After placing the DXF in its desired spot and using the measurement tool (found in the left menubar) to verify its dimensions, use the mode selector in the panel on the right to select either score, engrave or cut, depending on the nature of the project. Different groups of geometries can be assigned to different operations. After each operation is selected, set a laser power and head movement speed. The higher the power, the more intense the cut, but could result in elevated fire risks. The faster the speed, the more faster the cut completes, but too much speed could result in the laser not having enough time to burn through material. The XTool provides a grid which visualizes what each material results in for a certain range of presents of powers and speeds. A setting can be selected in the preset diagram by clicking one of the result options; a custom setting can be set using the sliders as well.
+![](media/images/lasercutter4.png)
+
+Then, drag the DXF file into the center grid area, where the camera image overlay now is. Place this over the desired (uncut) region of the stock material according to the imagery from the camera. The DXF file may also be adjusted by groups. By right-clicking, text with the same properties can be grouped together, which helps make selecting modes for each step more efficient.
+
+After placing the DXF in its desired spot and using the measurement tool (found in the left menubar) to verify its dimensions, use the mode selector in the panel on the right to select either score, engrave or cut, depending on the nature of the project. Different groups of geometries can be assigned to different operations. After each operation is selected, set a laser power and head movement speed. 
+![](media/images/lasercutter5.png)
+The higher the power, the more intense the cut, but could result in elevated fire risks. The faster the speed, the more faster the cut completes, but too much speed could result in the laser not having enough time to burn through material. The XTool provides a grid which visualizes what each material results in for a certain range of presents of powers and speeds. A setting can be selected in the preset diagram by clicking one of the result options; a custom setting can be set using the sliders as well.
 
 Once this is confirmed, click the green process button on the bottom right, and preview the path of the laser. Make sure that all text that are bounded internally to another shape is cut first before the outside is cut. Once that is good, click the green send button on the top right.
+
+![](media/images/lasercutter6.png)
 
 Go over to the laser cutter and press the large start button. Remember to stay nearby at all times during the cut!
 
