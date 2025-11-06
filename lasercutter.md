@@ -73,5 +73,7 @@ We can now import the design. This can be found in the File > Import menu, selec
 
 Finally, the laser needs to be focused. There are level focusing blocks which have a note on them indicating the corresponding material thickness. Select the correct focus block and place it under the laser module. Adjust the module height using the z-axis thumb screws until the module rests on the focus block. Tighten back the screws, remove the block, and the laser should be focused. You can now begin cutting the DXF file.
 
-Example Project:
-Pocketing a plate
+##Example Project: Pocketing a plate
+This plate was designed as part of an assembly for robotics. This needs to be lightened as the plate needs to be quickly swiveled while also retaining strength. The better the strength-to-weight ratio, the more efficiently the entire assembly is able to turn.
+
+To lighten the plate, we first connect all the fasteners with lines, as these are the paths which will receive the most loading. Then, in between the fasteners, we split the remaining area into triangles (utilizing its stability). Intersections between lines and midpoint of lines are used such that the triangles are relatively uniformly distributed throughout the area.
