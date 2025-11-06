@@ -12,10 +12,16 @@ First, the design of the desired part is completed in a CAD software.
 As laser cutters work on 2D planar surfaces, they accept 2D design to calculate GCode positioning. For this section, we will be using the CAD program Onshape (found at https://onshape.com/), and use the DXF file format. Other file vector-based formats such as SVG files are accepted as well. However, they follow a similar process, but could involve additional software (eg. Adobe Illustrator).
 
 A simple, 2D sketch can be exported using the "Export as DXF" button found when right-clicking a bounded area of the sketch. This exports the continugous face, that the mouse is currently part of.
+![](media/images/onshape1.png)
 
 For a part of a more complex object, such as a CAD model that involves thickness, right click the desired flat face on the 3D object. The face cannot be curved as laser cutters USUALLY work in a planar fashion. The XTool P2S is an exception to this rule; however, even with the 3D engraving feature, the machine does not process 3D files directly and must be converted into a greyscale image for contour mapping.
 
-**IMPORTANT:** whenever using the XTool P2S or the Creality Falcon 2 Pro, the DXF **MUST** be exported in units of **MILLIMETERS**. This is the default working unit for both lightburn and XTool Creative Space, the software used to process the DXF file into instructions to the laser cutter. Unless you have manually changed the unit in the software to something else, assume default settings and use millimeters. The unit can be selected in a pop up menu in Onshape when confirming the DXF file export.
+![](media/images/onshape2.png)
+
+**IMPORTANT:** whenever using the XTool P2S or the Creality Falcon 2 Pro, the DXF **MUST** be exported in units of **MILLIMETERS**. 
+
+This is the default working unit for both lightburn and XTool Creative Space, the software used to process the DXF file into instructions to the laser cutter. Unless you have manually changed the unit in the software to something else, assume default settings and use millimeters. The unit can be selected in a pop up menu in Onshape when confirming the DXF file export.
+![](media/images/onshape3.png)
 
 ## Using the XTool P2S
 Observe the XTool P2S. The laser cutter is comprised of a flat, rectangular cutter body, a filter module on the side and a long and thin vent wall panel used to block out the fumes, connected to the filter and laser cutter via an air pipe. 
