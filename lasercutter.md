@@ -57,6 +57,8 @@ Once this is confirmed, click the green process button on the bottom right, and 
 
 Go over to the laser cutter and press the large start button. Remember to stay nearby at all times during the cut!
 
+![](media/images/lasercutter7.png)
+
 ## Using the Falcon 2 Pro
 
 The Creality Falcon 2 Pro is located in the library innovation lab. This machine has a visible light laser, so it has a built in crimson lid to block out the laser light. You should get a pair of laser glasses as well. This laser cutter also has a cutter and a filter, although the filter currently vents indoors. Therefore, it is not recommended to cut any plastic due to the ventilation situation.
@@ -76,6 +78,6 @@ Finally, the laser needs to be focused. There are level focusing blocks which ha
 ## Example Project: Pocketing a plate
 This plate was designed as part of an assembly for robotics. This needs to be lightened as the plate needs to be quickly swiveled while also retaining strength. The better the strength-to-weight ratio, the more efficiently the entire assembly is able to turn.
 
-To lighten the plate, we first connect all the fasteners with lines, as these are the paths which will receive the most loading. Then, in between the fasteners, we split the remaining area into triangles (utilizing its stability). Intersections between lines and midpoint of lines are used such that the triangles are relatively uniformly distributed throughout the area.
+To lighten the plate, we first connect all the fasteners with lines, as these are the paths which will receive the most loading. Then, in between the fasteners, we split the remaining area into triangles (utilizing its stability). Intersections between lines and midpoint of lines are used such that the triangles are relatively uniformly distributed throughout the area. Avoiding sharp angles (as this would cause parts of the plate to separate).
 
 ![](media/images/pocket.png)
