@@ -1,5 +1,5 @@
 # Charley
-Hi! I'm Charley, a student currently at the Webb Schools.
+Hi! I'm Charley, a student currently at the Webb Schools, Claremont, CA.
 
 Interests:
 - Aerospace: rocketry, orbital mechanics, flight dynamics, guidance systems
